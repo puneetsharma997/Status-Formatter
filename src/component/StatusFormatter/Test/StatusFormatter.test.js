@@ -1,6 +1,3 @@
-// import { configure, shallow, mount } from "enzyme";
-// import Adapter from 'enzyme-adapter-react-16';
-// configure({ adapter: new Adapter() });
 
 import React from 'react';
 
@@ -30,8 +27,6 @@ describe('Status Formatter', () => {
 
     it("has onChange that toggles the state",()=>{
 		const wrapper = mount(<StatusFormatter/>)
-		// wrapper.setState({active:true})
-		// console.log(wrapper.instance())
 		expect(wrapper.state('active')).toEqual(true)
 	})
 

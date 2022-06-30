@@ -1,0 +1,36 @@
+.wrapper{
+    width: 25rem;
+    height: 10rem;
+    border-radius: 5rem;
+    background-color: lightblue;
+
+    .ant-switch{
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 4rem;
+        left: 11rem;
+    }
+
+    .Active{
+        background-color: green;
+        background-image: none;
+    }
+
+    .Inactive{
+        background-color: orange;
+        background-image: none;
+    }
+}
+
+
+
+// .bg-green{
+//     background-color: green;
+//     background-image: none;
+// }
+// .bg-yellow{
+//     background-color: orange;
+//     background-image: none;
+// }
